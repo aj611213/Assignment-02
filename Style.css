@@ -785,7 +785,7 @@
         line-height: 24px;
     }
     .discount-banner {
-        width: 335px;
+        width: 410px;
         height: 500px;
         border-radius: 10px;
         display: flex;
@@ -793,12 +793,12 @@
         position: relative;
     }
     .top-banner {
-        width: 273px;
+        width: 345px;
         height: 370px;
         padding: 15px;
         position: absolute;
         top: 84px;
-        right: 16px;
+        right: 17px;
     }
     .icon-text {
         width: 176px;
@@ -822,7 +822,7 @@
         line-height: 24px;
     }
     .left-side {
-        width: 273px;
+        width: 345px;
         height: 370px;
         background-color: #ffffffe3;
         position: absolute;
@@ -849,26 +849,21 @@
     .left-text p {
         color: rgba(19, 19, 24, 0.70);
         font-size: 14px;
+    }
     
-    }
-    .left-text ul{
-
-    }
     .left-text ul li {
         color: #131318;
-        /* font-family: Mulish; */
         font-size: 14px;
-        /* font-style: normal; */
         font-weight: 700;
         line-height: 24px;
     }
-    
     .right-video-part {
         margin-top: 15px;
     }
     .right-video-part img {
         width: 365px;
     }
+
     /* text and video end */
 
 
@@ -920,13 +915,9 @@
         width: 400px;
         margin-top: 10px;
     }
-
-
-    
-
-
-
-    /* Deals Section Responsive CSS End */
+    .last-part hr {
+        width: 365px;
+    }
 }
 
 /* Responsive CSS Ends here /*
