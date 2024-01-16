@@ -402,8 +402,6 @@
     padding-right: 10px;
 }
 
-.top-text-title {}
-
 .top-text-title h2 {
     color: #131318;
     font-size: 24px;
@@ -737,6 +735,16 @@
         row-gap: 20px;
         margin-top: 20px;
     }
+    .img {
+        position: relative;
+    }
+    
+    .img h2 {
+        position: absolute;
+        top: 40%;
+        left: 30%;
+        color: #fff;
+    }
     /* Destination Section Responsive CSS End */
     /* Choose Us Section */
     .choose-us-section{
@@ -785,7 +793,7 @@
         line-height: 24px;
     }
     .discount-banner {
-        width: 410px;
+        width: 365px;
         height: 500px;
         border-radius: 10px;
         display: flex;
@@ -793,7 +801,7 @@
         position: relative;
     }
     .top-banner {
-        width: 345px;
+        width: 302px;
         height: 370px;
         padding: 15px;
         position: absolute;
@@ -822,7 +830,7 @@
         line-height: 24px;
     }
     .left-side {
-        width: 345px;
+        width: 302px;
         height: 370px;
         background-color: #ffffffe3;
         position: absolute;
@@ -874,7 +882,7 @@
         width: 365px;
     }
     .left-content {
-        width: 365px;
+        width: 350px;
     }
     .left-content h2 {
         color: #131318;
@@ -887,7 +895,7 @@
         line-height: 24px;
     }
     .left-content input {
-        width: 334px;
+        width: 320px;
         height: 60px;
     }
     .left-content .btn-subs {
@@ -897,7 +905,7 @@
     }
 
     .right-banner img {
-        width: 410px;
+        width: 365px;
         margin-top: 30px;
         position: relative;
     }
@@ -905,6 +913,8 @@
         position: absolute;
         top: 126px;
         right: 6px;
+        width: 240px;
+        height: 75px;
     }
 
     /* Newsletter Section End */
